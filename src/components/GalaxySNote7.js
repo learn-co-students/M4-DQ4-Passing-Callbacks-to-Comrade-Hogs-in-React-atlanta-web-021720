@@ -33,7 +33,7 @@ export default class GalaxySNote7 extends React.Component {
   panic = () => (<img id="galaxy-exclamation" className="exclamation" src={exclamation} alt="" />)
 
   render() {
-    return(
+    return (
       <div id="galaxy-s-note" onClick={this.exclaim}>
         {(this.state.panicked) ? this.panic() : null}
       </div>
